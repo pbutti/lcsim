@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.lcsim</groupId>
   <artifactId>lcsim</artifactId>
-  <version>4.1-SNAPSHOT</version>
+  <version>4.2-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>LCSim</name>
   <description>org.lcsim Java framework</description>
@@ -22,24 +22,24 @@
     <connection>scm:git:git://github.com/slaclab/lcsim.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/slaclab/lcsim.git</developerConnection>
     <url>https://github.com/slaclab/lcsim.git</url>
-    <tag>HEAD</tag>
+    <tag>lcsim-4.1-SNAPSHOT</tag>
   </scm>
   
   <repositories>
     <repository>
       <id>freehep-repo-public</id>
       <name>FreeHEP Maven Public</name>
-      <url>http://srs.slac.stanford.edu/nexus/content/groups/freehep-maven2-public/</url>
+      <url>https://srs.slac.stanford.edu/nexus/content/groups/freehep-maven2-public/</url>
     </repository>
     <repository>
       <id>lcsim-repo-public</id>
       <name>LCSIM Public Maven Repository</name>
-      <url>http://srs.slac.stanford.edu/nexus/content/groups/lcsim-maven2-public/</url>
+      <url>https://srs.slac.stanford.edu/nexus/content/groups/lcsim-maven2-public/</url>
     </repository>
     <repository>
       <id>maven-central-repo</id>
       <name>Maven repository</name>
-      <url>http://repo1.maven.org/maven2/</url>
+      <url>https://repo1.maven.org/maven2/</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
@@ -53,7 +53,7 @@
     <pluginRepository>
       <id>freehep-maven-plugin-repo</id>
       <name>Freehep Plugin Repository</name>
-      <url>http://srs.slac.stanford.edu/nexus/content/groups/freehep-maven2-public/</url>
+      <url>https://srs.slac.stanford.edu/nexus/content/groups/freehep-maven2-public/</url>
     </pluginRepository>
   </pluginRepositories>
   
@@ -61,16 +61,16 @@
     <repository>
       <id>lcsim-repo-releases</id>
       <name>LCSIM Releases maven repository</name>
-      <url>http://srs.slac.stanford.edu/nexus/content/repositories/lcsim-maven2-releases/</url>
+      <url>https://srs.slac.stanford.edu/nexus/content/repositories/lcsim-maven2-releases/</url>
     </repository>
     <snapshotRepository>
       <id>lcsim-repo-snapshots</id>
       <name>LCSIM Snapshots maven repository</name>
-      <url>http://srs.slac.stanford.edu/nexus/content/repositories/lcsim-maven2-snapshot/</url>
+      <url>https://srs.slac.stanford.edu/nexus/content/repositories/lcsim-maven2-snapshot/</url>
     </snapshotRepository>
     <site>
       <id>lcsim-site</id>
-      <url>dav:http://srs.slac.stanford.edu/nexus/content/sites/lcsim-site/lcsim/</url>
+      <url>dav:https://srs.slac.stanford.edu/nexus/content/sites/lcsim-site/lcsim/</url>
     </site>
   </distributionManagement>
 
@@ -80,113 +80,113 @@
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-vertexing</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-event-heprep</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-recon-drivers</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-event-processing</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-trf</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-event-model</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-aida</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-util</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-tracking</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-cal-recon</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-cal-calib</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-detector-framework</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-detector-data</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-conditions</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-analysis</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-math</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-job-manager</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-plugin</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-users</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-distribution</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
         <type>pom</type>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-steering-files</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.lcsim</groupId>
         <artifactId>lcsim-mc</artifactId>
-        <version>4.1-SNAPSHOT</version>
+        <version>4.2-SNAPSHOT</version>
       </dependency>
       <!-- End org.lcsim dependencies. -->
       <dependency>
